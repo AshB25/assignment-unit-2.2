@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// name is set as Dane
+// if name is same value & type as Mary then Hi, Mary! is printed or How do you do?
 // 
 //
 
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// secret is a variable. code defined as 123
+// if code is same vale and type as 123 then secret is super and code is 246
+// if code >250 then secret is duper
+//secret will br printed on screen
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// assigning isStudent as true, age as 34 and zip as 55407
+// if isStudent is same value and type as true and zip is .80000 then You're a student on the West Coast! is printed
+// if isStudent is same value & type as false or age<30 then what are your hobbies? is printed
+// if isStudent is same value & type as true then Welcome to Prime! is printed. If not, How about theh weather? is printed
 
 //CODE
 /*
@@ -137,7 +137,9 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-*/
+*/ 
+// FIX-in description colorOne is set to blue and colorTwo is set red, but in code they are switced.
+// 
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -150,7 +152,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-*/
+// FIX-there should be && in the conditional statement.
+// 
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +169,4 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+// FIX-conditional statement should be age >=minAge. 
